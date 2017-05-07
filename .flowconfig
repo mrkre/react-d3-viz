@@ -1,0 +1,14 @@
+[ignore]
+<PROJECT_ROOT>/node_modules/.*
+<PROJECT_ROOT>/tests/.*
+
+[include]
+<PROJECT_ROOT>/src/.*
+
+[libs]
+module.file_ext=.js
+module.file_ext=.jsx
+suppress_comment=\\(.\\|\n\\)*\\$FlowFixMe
+suppress_comment=\\(.\\|\n\\)*\\$FlowIssue
+
+[options]
