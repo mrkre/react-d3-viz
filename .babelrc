@@ -9,17 +9,7 @@
     ],
     "react"
   ],
-  "env": {
-    "development": {
-      "plugins": [
-        "flow-react-proptypes"
-      ]
-    }
-  },
   "plugins": [
-    "external-helpers",
-    "flow-react-proptypes",
-    "transform-flow-comments",
-    "transform-flow-strip-types"
+    "external-helpers"
   ]
 }

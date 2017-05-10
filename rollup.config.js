@@ -16,7 +16,7 @@ export default {
       exclude: ['tests/**/*', 'node_modules/**/*'],
     }),
   ],
-  external: ['react', 'react-dom'],
+  external: ['react', 'react-dom', 'prop-types'],
   globals: {
     react: 'React',
   },
